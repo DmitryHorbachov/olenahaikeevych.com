@@ -1,0 +1,232 @@
+body {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.66667;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.line-menu {
+    border-width: 0 1px 0 0; /*толщина*/
+    border-style: solid;
+    line-height: 98px;
+    font-size: 36px;
+    color: #333333;
+}
+
+.site-description {
+    font-weight: 300;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    color: #2b2b2b;
+}
+
+.navbar > .collapse > .nav > ul > li > a {
+
+}
+
+.navbar-nav > li > a {
+    line-height: 68px;
+}
+
+.navbar .nav > li > a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    color: #2b2b2b;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.navbar .nav > li > a:hover {
+    color: #0081ff;
+    background: none;
+}
+
+.navbar-header {
+    margin-top: 12px;
+    margin-bottom: 13px;
+}
+
+.header {
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner {
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.bth-banner {
+    margin-top: 56px;
+}
+
+.bth-banner a {
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    vertical-align: middle;
+
+}
+
+.btn-left {
+    color: #333;
+    background-color: #0081ff;
+    border-radius: 0px;
+    vertical-align: middle;
+}
+
+.btn-left:hover, .btn-right:hover {
+    background-color: #ffffff;
+
+}
+
+.btn-right {
+    background-color: #2b2b2b;
+    border-radius: 0px;
+    margin-left: 30px;
+}
+
+.bth-banner .btn, .btn-folio .btn {
+    width: 180px;
+    height: 60px;
+    line-height: 3.428571
+}
+
+header h3 {
+    font-family: Playball, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0em;
+    color: #2b2b2b;
+}
+
+header p {
+    font-size: 30px;
+    line-height: 2em;
+}
+
+.about-me {
+    background-color: rgba(0, 0, 0, .3);
+    background: url(../img/sony_2.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.block-centr {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.about-me h3, .contact h3 {
+    font-family: Playball, sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.about-me h2, .contact h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 1;
+    font-family: Montserrat, sans-serif;
+    letter-spacing: 0em;
+    color: #ffffff;
+}
+
+.about-me p, .contact p {
+    color: #949494;
+    font-family: Montserrat, sans-serif;
+}
+
+.jet-headline__label {
+    color: #0081ff;
+}
+
+.about-me a {
+    color: #949494;
+
+}
+
+.about-me ul > li > a:hover {
+    background: none;
+    color: #0081ff;
+
+}
+
+.icon-bar {
+    color: black;
+    height: 3px;
+    width: 10px;
+}
+.my-latest-work img{
+    height: 400px;
+}
+.my-latest-work h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight:800;
+    color: #949494;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-folio{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-folio a{
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    vertical-align: middle;
+}
+
+.contact{
+    background: url(../img/bg-7.png);
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    overflow: hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+}
+
+.footer{
+    background-color: #343437;
+    text-align: center;
+    padding:20px 0;
+    color: #ffffff;
+}
+
+
+
+
+

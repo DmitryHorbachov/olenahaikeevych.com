@@ -210,6 +210,8 @@ header p {
 }
 
 .contact{
+    display: flex;
+    align-items: center;
     background: url(../img/bg-7.png);
     background-repeat: no-repeat;
     /*background-position: center;*/
@@ -218,6 +220,20 @@ header p {
     background-size: cover;
     height: 100vh;
 }
+.content p{
+    font-size: 16px;
+}
+.contact a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contact ul>li>a{
+    color:#949494;
+}
+.contact ul>li>a:hover{
+    color:#0081ff;
+    background: none;
+}
 
 .footer{
     background-color: #343437;
@@ -225,7 +241,28 @@ header p {
     padding:20px 0;
     color: #ffffff;
 }
+.footer p{
+    font-size:12px;
+}
 
+.footer-content{
+    margin:20px auto;
+}
+.footer h2{
+    margin-top:0;
+    margin-bottom:0;
+}
+.footer .navbar-nav>li>a {
+    line-height: 20px;
+    color: #ffffff;
+}
+.footer .navbar-nav>li>a:hover {
+    background:none;
+    color: #0081ff;
+}
+.color-white{
+    color: #ffffff;
+}
 
 
 

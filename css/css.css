@@ -227,38 +227,37 @@ header p {
     text-decoration: none;
     color: #ffffff;
 }
-.contact ul>li>a{
-    color:#949494;
+.contacts a{
+    margin-left:10px;
+    margin-right:10px;
 }
-.contact ul>li>a:hover{
+.contact a:hover{
     color:#0081ff;
-    background: none;
+
 }
 
 .footer{
     background-color: #343437;
     text-align: center;
-    padding:20px 0;
     color: #ffffff;
-}
-.footer p{
-    font-size:12px;
+    height:60px;
+    line-height: 60px;
 }
 
-.footer-content{
-    margin:20px auto;
+.footer p{
+    font-size:12px;
+    margin:0;
+    text-align: right;
 }
-.footer h2{
-    margin-top:0;
-    margin-bottom:0;
-}
-.footer .navbar-nav>li>a {
-    line-height: 20px;
+
+
+.footer  a{
     color: #ffffff;
+    text-decoration: none;
 }
-.footer .navbar-nav>li>a:hover {
-    background:none;
+.footer  a:hover{
     color: #0081ff;
+    cursor: pointer;
 }
 .color-white{
      color: #ffffff;

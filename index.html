@@ -20,7 +20,7 @@
     <![endif]-->
 </head>
 <body>
-<header class="header">
+<header class="header" id="to-top">
     <nav class="navbar">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,8 +38,8 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#">My Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#my-portfolio">My Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><span class="line-menu"></span></li>
                     <li><a href="#"><i class="fa fa fa-instagram"></i></a></li>
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -72,14 +72,14 @@
                     <h3>About Me</h3>
                     <h2>Who <span class="jet-headline__label">I am</span></h2>
                     <p>if you like my works Follow me:</p>
-                    <ul class="nav navbar-nav">
-                        <li><a href="#"><i class="fa fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa fa-skype"></i></a></li>
-                        <li><a href="#"><i class="fa fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa fa-skype"></i></a></li>
-                        <li><a href="#"><i class="fa fa fa-skype"></i></a></li>
-                    </ul>
+                    <div class="contacts">
+                        <a href="#"><i class="fa fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa fa-skype"></i></a>
+                        <a href="#"><i class="fa fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa fa-skype"></i></a>
+                        <a href="#"><i class="fa fa fa-skype"></i></a>
+                    </div>
                 </div>
                 <div class="col-md-8">
                     <p>I am a photographer who loves non-standard locations, unique people and sunlight! I specialize in
@@ -95,7 +95,7 @@
         </div>
     </div>
 </section>
-<section class="my-latest-work">
+<section class="my-latest-work" id="my-portfolio">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -135,7 +135,7 @@
         </div>
     </div>
 </section>
-<section class="contact">
+<section class="contact" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -161,13 +161,13 @@
 
             </div>
             <div class="col-md-6">
-                <h2><span class="jet-headline__label"> Get in</span>Touch</h2>
+                <h2><span class="jet-headline__label">Get in </span>Touch</h2>
                 <div class="form">
                     <form action="">
-                        <input type="text" size="40" value="Name">
-                        <input type="email" value="Your Email" size="40">
-                        <textarea placeholder="Question" cols="40" rows="10"></textarea>
-                        <input type="submit" value="Send">
+                        <input type="text" size="40" placeholder="Name">
+                        <input type="email" placeholder="Your Email" size="40">
+                        <textarea placeholder="Question" cols="50" rows="6"></textarea>
+                        <input class="btn-send" type="submit" value="SEND">
                     </form>
                 </div>
             </div>
@@ -194,11 +194,18 @@
         </div>
     </div>
 </footer>
+<div id="go-top">
+    <a href="#to-top">
+        <i class="glyphicon glyphicon-chevron-right">123</i>
+    </a>
+</div>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
+
 <script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
 <script src="js/js.js"></script>
 </body>
 </html>

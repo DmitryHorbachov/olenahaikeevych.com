@@ -38,6 +38,7 @@ body {
     font-family: Montserrat, sans-serif;
     letter-spacing: 0em;
     color: #2b2b2b;
+    transition: all 800ms;
 }
 
 .navbar {
@@ -87,6 +88,7 @@ body {
     background-color: #0081ff;
     border-radius: 0px;
     vertical-align: middle;
+    transition: all 1s;
 }
 
 .btn-left:hover, .btn-right:hover {
@@ -98,6 +100,7 @@ body {
     background-color: #2b2b2b;
     border-radius: 0px;
     margin-left: 30px;
+    transition: all 1s;
 }
 
 .bth-banner .btn, .btn-folio .btn {
@@ -127,13 +130,14 @@ header p {
 }
 
 .about-me {
-    background-color: rgba(0, 0, 0, .3);
-    background: url(../img/sony_2.png);
-    background-repeat: no-repeat;
+    /*background-color: rgba(0, 0, 0, .3);*/
+    /*background: url(../img/sony_2.png);*/
+    /*background-repeat: no-repeat;*/
     overflow: hidden;
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
+    background: transparent;
 
 }
 
@@ -207,18 +211,20 @@ header p {
     color: #ffffff;
     font-family: Montserrat, sans-serif;
     vertical-align: middle;
+    transition: all 1s;
 }
 
 .contact{
     display: flex;
     align-items: center;
-    background: url(../img/bg-7.png);
-    background-repeat: no-repeat;
+    /*background: url(../img/bg-7.png);
+    background-repeat: no-repeat;*/
     /*background-position: center;*/
     overflow: hidden;
     -webkit-background-size: cover;
     background-size: cover;
     height: 100vh;
+    background: transparent;
 }
 .content p{
     font-size: 16px;
@@ -227,13 +233,56 @@ header p {
     text-decoration: none;
     color: #ffffff;
 }
+
+.contact .contacts{
+    margin-top:20px;
+}
 .contacts a{
     margin-left:10px;
     margin-right:10px;
+    color: #949494;
+    transition: all 1s;
 }
-.contact a:hover{
+.contacts a:hover{
     color:#0081ff;
 
+}
+.btn-send{
+    width: 180px;
+    height: 60px;
+    line-height: 3.428571;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    vertical-align: middle;
+    background-color: #0081ff;
+    border: none;
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: all 1s;
+
+}
+.btn-send:hover{
+    background-color: #ffffff;
+    color:#000000;
+    font-weight: 700;
+
+}
+input, textarea{
+    outline: none;
+    border: none;
+    background: none;
+    border-bottom: solid 2px #ffffff;
+    caret-color: #ffffff;
+    width: 100%;
+    color: #ffffff;
+}
+input{
+    height: 50px;
+}
+input:focus,textarea:focus{
+    border-bottom: solid 2px #0081ff ;
 }
 
 .footer{
@@ -262,6 +311,38 @@ header p {
 .color-white{
      color: #ffffff;
  }
+
+#go-top {
+    position: fixed;
+    bottom: 25px;
+    right: 10px;
+    cursor:pointer;
+    display:none;
+    width: 50px;
+    height: 20px;
+    background: #c0c0c0;
+}
+
+#go-top:hover {
+    background: #333;
+}
+#go-top{
+    z-index: 999999999;
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #0081ff;
+    line-height: 30px;
+    text-align: center;
+    transition: all 1s;
+}
+#go-top:hover{
+    background-color: #ffffff;
+}
 
 
 

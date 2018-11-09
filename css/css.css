@@ -190,8 +190,28 @@ header p {
     height: 3px;
     width: 10px;
 }
-.my-latest-work img{
-    height: 400px;
+.image img{
+    height: 364px;
+    width: 364px;
+
+}
+.image{
+    overflow:hidden;
+
+}
+.gallery{
+    height: 390px;
+
+}
+.gallery img{
+    width: 364px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: all 1s ease-out;
+}
+.gallery img:hover{
+    transform: translateX(20px);
+    /*transform: scale(1.1);*/
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
 }
 .my-latest-work h1{
     text-align: center;
@@ -343,6 +363,7 @@ input:focus,textarea:focus{
 #go-top:hover{
     background-color: #ffffff;
 }
+
 
 
 
